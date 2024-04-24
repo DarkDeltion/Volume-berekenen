@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://wallpaperbat.com/img/208623-math-wallpaper-top-free-math-background.jpg'); /* Adjust the file name and path as needed */
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.lengte input,
+.breedte input,
+.hoogte input,
+#submit {
+    border: 1px solid rgb(134, 134, 134);
+    background-color: rgb(134, 134, 134);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+#submit:hover {
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+.square {
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    margin: 150px auto;
+    background-color: rgb(85, 85, 85);
+    backdrop-filter: blur(10px);
+}
+
+.square2 {
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    margin: 150px auto;
+    background-color: rgb(85, 85, 85);
+}
+
+.berekenen-text,
+.uitrekening,
+.berekening {
+
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}

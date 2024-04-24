@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inhoud Uitrekenen</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme/style.css">
 </head>
 <body>
-    <center>
-    <div class="berekenen-text">
-        <h1>Inhoud berekenen</h1>
-        <p>Voer een nummer in om de inhoud te berekenen.</p> <br>
-    </div>
+    <div class="square">
+        <center>
+            <div class="berekenen-text">
+                <h1>Inhoud berekenen</h1>
+                <p>Voer een nummer in om de inhoud te berekenen.</p> <br>
+            </div>
 
-    <div class="berekening">
-        <form action="berekening.php" method="post">
-            <div class="lengte">
-                <label for="lengte">Lengte:</label>
-                <input type="text" id="lengte" name="lengte" placeholder="voer een nummer in">
-            </div>
-            <br><br>
-            <div class="breedte">
-                <label for="breedte">Breedte:</label>
-                <input type="text" id="breedte" name="breedte" placeholder="voer een nummer in"> 
-            </div>
-            <br><br>
-            <div class="hoogte">
-                <label for="hoogte">Hoogte:</label>
-                <input type="text" id="hoogte" name="hoogte" placeholder="voer een nummer in">
-            </div>
-            <br><br>
+                <br><br><br>
 
-            <input type="submit" id="submit" name="submit" value="Uitrekenen">
-        </form>
-    </div>
-    </center>
+            <div class="berekening">
+                <form action="berekening.php" method="post">
+                    <div class="lengte">
+                        <label for="lengte">Lengte:</label>
+                        <input type="text" id="lengte" name="lengte" placeholder="voer een nummer in" required>
+                    </div>
+                    <br><br>
+                    <div class="breedte">
+                        <label for="breedte">Breedte:</label>
+                        <input type="text" id="breedte" name="breedte" placeholder="voer een nummer in" required> 
+                    </div>
+                    <br><br>
+                    <div class="hoogte">
+                        <label for="hoogte">Hoogte:</label>
+                        <input type="text" id="hoogte" name="hoogte" placeholder="voer een nummer in" required>
+                    </div>
+                    <br><br>
+
+                    <input type="submit" id="submit" name="submit" value="Uitrekenen">
+                </form>
+            </div>
+        </center>
+    </div>  
 </body>
 </html>
