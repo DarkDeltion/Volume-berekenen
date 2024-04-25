@@ -1,9 +1,5 @@
 body {
-    background-image: url('https://wallpaperbat.com/img/208623-math-wallpaper-top-free-math-background.jpg'); /* Adjust the file name and path as needed */
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
+    background-color: rgb(44, 44, 44);
 }
 
 .lengte input,
@@ -26,17 +22,16 @@ body {
     width: 450px;
     height: 550px;
     padding: 20px;
-    margin: 150px auto;
-    background-color: rgb(85, 85, 85);
-    backdrop-filter: blur(10px);
+    margin: 70px auto;
+    background-color: rgba(85, 85, 85, 0.267);
 }
 
 .square2 {
     width: 450px;
     height: 550px;
     padding: 20px;
-    margin: 150px auto;
-    background-color: rgb(85, 85, 85);
+    margin: 70px auto;
+    background-color: rgba(85, 85, 85, 0.249);
 }
 
 .berekenen-text,
